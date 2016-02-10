@@ -1,10 +1,12 @@
 <h3>Users</h3>
 <ul class="list-group">
-    <table class="table table-bordered">
+    <table class="table table-bordered" id="inlineEditDataTable">
+       <thead>
         <tr>
             <th>Full name</th>
             <th>Username</th>
         </tr>
+        </thead>
         <? foreach ($users as $user): ?>
             <tr>
                 <td><?= $user['full_name'] ?></td>
@@ -45,3 +47,8 @@
 
     </form>
 <?php endif; ?>
+<script>
+       $(document).ready(function(){
+         $('#inlineEditDataTable').tablesorter();
+       });
+</script>

@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/components/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="https://mottie.github.io/tablesorter/css/theme.default.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <style>
         body {
@@ -70,5 +70,6 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="vendor/components/jquery/jquery.min.js"></script>
 <script src="vendor/components/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://mottie.github.io/tablesorter/js/jquery.tablesorter.js"></script>
 </body>
 </html>
